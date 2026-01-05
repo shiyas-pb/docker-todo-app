@@ -1,0 +1,12 @@
+{
+  "name": "todo-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Docker Todo App",
+  "scripts": {
+    "build": "echo 'Static files served by Nginx'",
+    "start": "npx serve src -p 8080"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
